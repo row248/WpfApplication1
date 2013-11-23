@@ -1,0 +1,911 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AttachedCommandBehavior.1.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:AttachedCommandBehavior.Fakes.ShimActionExecutionStrategy">
+            <summary>Shim type of AttachedCommandBehavior.ActionExecutionStrategy</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimActionExecutionStrategy.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimActionExecutionStrategy.#ctor(AttachedCommandBehavior.ActionExecutionStrategy)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimActionExecutionStrategy.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimActionExecutionStrategy.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimActionExecutionStrategy.Bind(AttachedCommandBehavior.IExecutionStrategy)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimActionExecutionStrategy.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimActionExecutionStrategy.BehaviorGet">
+            <summary>Sets the shim of ActionExecutionStrategy.get_Behavior()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimActionExecutionStrategy.BehaviorSetCommandBehaviorBinding">
+            <summary>Sets the shim of ActionExecutionStrategy.set_Behavior(CommandBehaviorBinding value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimActionExecutionStrategy.Constructor">
+            <summary>Sets the shim of ActionExecutionStrategy.ActionExecutionStrategy()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimActionExecutionStrategy.ExecuteObject">
+            <summary>Sets the shim of ActionExecutionStrategy.Execute(Object parameter)</summary>
+        </member>
+        <member name="T:AttachedCommandBehavior.Fakes.ShimActionExecutionStrategy.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimActionExecutionStrategy.AllInstances.BehaviorGet">
+            <summary>Sets the shim of ActionExecutionStrategy.get_Behavior()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimActionExecutionStrategy.AllInstances.BehaviorSetCommandBehaviorBinding">
+            <summary>Sets the shim of ActionExecutionStrategy.set_Behavior(CommandBehaviorBinding value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimActionExecutionStrategy.AllInstances.ExecuteObject">
+            <summary>Sets the shim of ActionExecutionStrategy.Execute(Object parameter)</summary>
+        </member>
+        <member name="T:AttachedCommandBehavior.Fakes.ShimBehaviorBinding">
+            <summary>Shim type of AttachedCommandBehavior.BehaviorBinding</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.#ctor(AttachedCommandBehavior.BehaviorBinding)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.ActionGet">
+            <summary>Sets the shim of BehaviorBinding.get_Action()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.ActionSetActionOfObject">
+            <summary>Sets the shim of BehaviorBinding.set_Action(Action`1&lt;Object&gt; value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.BehaviorGet">
+            <summary>Sets the shim of BehaviorBinding.get_Behavior()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.CommandGet">
+            <summary>Sets the shim of BehaviorBinding.get_Command()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.CommandParameterGet">
+            <summary>Sets the shim of BehaviorBinding.get_CommandParameter()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.CommandParameterSetObject">
+            <summary>Sets the shim of BehaviorBinding.set_CommandParameter(Object value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.CommandSetICommand">
+            <summary>Sets the shim of BehaviorBinding.set_Command(ICommand value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.Constructor">
+            <summary>Sets the shim of BehaviorBinding.BehaviorBinding()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.CreateInstanceCore">
+            <summary>Sets the shim of BehaviorBinding.CreateInstanceCore()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.EventGet">
+            <summary>Sets the shim of BehaviorBinding.get_Event()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.EventSetString">
+            <summary>Sets the shim of BehaviorBinding.set_Event(String value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.OnActionChangedDependencyObjectDependencyPropertyChangedEventArgs">
+            <summary>Sets the shim of BehaviorBinding.OnActionChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.OnActionChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the shim of BehaviorBinding.OnActionChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.OnCommandChangedDependencyObjectDependencyPropertyChangedEventArgs">
+            <summary>Sets the shim of BehaviorBinding.OnCommandChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.OnCommandChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the shim of BehaviorBinding.OnCommandChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.OnCommandParameterChangedDependencyObjectDependencyPropertyChangedEventArgs">
+            <summary>Sets the shim of BehaviorBinding.OnCommandParameterChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.OnCommandParameterChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the shim of BehaviorBinding.OnCommandParameterChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.OnEventChangedDependencyObjectDependencyPropertyChangedEventArgs">
+            <summary>Sets the shim of BehaviorBinding.OnEventChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.OnEventChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the shim of BehaviorBinding.OnEventChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.OwnerGet">
+            <summary>Sets the shim of BehaviorBinding.get_Owner()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.OwnerResetDependencyObjectDependencyPropertyChangedEventArgs">
+            <summary>Sets the shim of BehaviorBinding.OwnerReset(DependencyObject d, DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.OwnerSetDependencyObject">
+            <summary>Sets the shim of BehaviorBinding.set_Owner(DependencyObject value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.ResetEventBinding">
+            <summary>Sets the shim of BehaviorBinding.ResetEventBinding()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.StaticConstructor">
+            <summary>Sets the shim of BehaviorBinding.BehaviorBinding()</summary>
+        </member>
+        <member name="T:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.AllInstances.ActionGet">
+            <summary>Sets the shim of BehaviorBinding.get_Action()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.AllInstances.ActionSetActionOfObject">
+            <summary>Sets the shim of BehaviorBinding.set_Action(Action`1&lt;Object&gt; value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.AllInstances.BehaviorGet">
+            <summary>Sets the shim of BehaviorBinding.get_Behavior()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.AllInstances.CommandGet">
+            <summary>Sets the shim of BehaviorBinding.get_Command()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.AllInstances.CommandParameterGet">
+            <summary>Sets the shim of BehaviorBinding.get_CommandParameter()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.AllInstances.CommandParameterSetObject">
+            <summary>Sets the shim of BehaviorBinding.set_CommandParameter(Object value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.AllInstances.CommandSetICommand">
+            <summary>Sets the shim of BehaviorBinding.set_Command(ICommand value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.AllInstances.CreateInstanceCore">
+            <summary>Sets the shim of BehaviorBinding.CreateInstanceCore()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.AllInstances.EventGet">
+            <summary>Sets the shim of BehaviorBinding.get_Event()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.AllInstances.EventSetString">
+            <summary>Sets the shim of BehaviorBinding.set_Event(String value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.AllInstances.OnActionChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the shim of BehaviorBinding.OnActionChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.AllInstances.OnCommandChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the shim of BehaviorBinding.OnCommandChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.AllInstances.OnCommandParameterChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the shim of BehaviorBinding.OnCommandParameterChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.AllInstances.OnEventChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the shim of BehaviorBinding.OnEventChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.AllInstances.OwnerGet">
+            <summary>Sets the shim of BehaviorBinding.get_Owner()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.AllInstances.OwnerSetDependencyObject">
+            <summary>Sets the shim of BehaviorBinding.set_Owner(DependencyObject value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBinding.AllInstances.ResetEventBinding">
+            <summary>Sets the shim of BehaviorBinding.ResetEventBinding()</summary>
+        </member>
+        <member name="T:AttachedCommandBehavior.Fakes.ShimBehaviorBindingCollection">
+            <summary>Shim type of AttachedCommandBehavior.BehaviorBindingCollection</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimBehaviorBindingCollection.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimBehaviorBindingCollection.#ctor(AttachedCommandBehavior.BehaviorBindingCollection)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimBehaviorBindingCollection.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimBehaviorBindingCollection.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimBehaviorBindingCollection.Bind(System.Windows.Media.Animation.IAnimatable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimBehaviorBindingCollection.Bind(System.Collections.Specialized.INotifyCollectionChanged)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimBehaviorBindingCollection.Bind(System.ComponentModel.INotifyPropertyChanged)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimBehaviorBindingCollection.Bind(System.Collections.ICollection)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimBehaviorBindingCollection.Bind(System.Collections.IEnumerable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimBehaviorBindingCollection.Bind(System.Collections.IList)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimBehaviorBindingCollection.Bind(System.Collections.Generic.ICollection{AttachedCommandBehavior.BehaviorBinding})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimBehaviorBindingCollection.Bind(System.Collections.Generic.IEnumerable{AttachedCommandBehavior.BehaviorBinding})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimBehaviorBindingCollection.Bind(System.Collections.Generic.IList{AttachedCommandBehavior.BehaviorBinding})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBindingCollection.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBindingCollection.Constructor">
+            <summary>Sets the shim of BehaviorBindingCollection.BehaviorBindingCollection()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBindingCollection.OwnerGet">
+            <summary>Sets the shim of BehaviorBindingCollection.get_Owner()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBindingCollection.OwnerSetDependencyObject">
+            <summary>Sets the shim of BehaviorBindingCollection.set_Owner(DependencyObject value)</summary>
+        </member>
+        <member name="T:AttachedCommandBehavior.Fakes.ShimBehaviorBindingCollection.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBindingCollection.AllInstances.OwnerGet">
+            <summary>Sets the shim of BehaviorBindingCollection.get_Owner()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimBehaviorBindingCollection.AllInstances.OwnerSetDependencyObject">
+            <summary>Sets the shim of BehaviorBindingCollection.set_Owner(DependencyObject value)</summary>
+        </member>
+        <member name="T:AttachedCommandBehavior.Fakes.ShimCommandBehavior">
+            <summary>Shim type of AttachedCommandBehavior.CommandBehavior</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimCommandBehavior.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimCommandBehavior.#ctor(AttachedCommandBehavior.CommandBehavior)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimCommandBehavior.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimCommandBehavior.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehavior.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehavior.Constructor">
+            <summary>Sets the shim of CommandBehavior.CommandBehavior()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehavior.FetchOrCreateBindingDependencyObject">
+            <summary>Sets the shim of CommandBehavior.FetchOrCreateBinding(DependencyObject d)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehavior.GetActionDependencyObject">
+            <summary>Sets the shim of CommandBehavior.GetAction(DependencyObject d)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehavior.GetBehaviorDependencyObject">
+            <summary>Sets the shim of CommandBehavior.GetBehavior(DependencyObject d)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehavior.GetCommandDependencyObject">
+            <summary>Sets the shim of CommandBehavior.GetCommand(DependencyObject d)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehavior.GetCommandParameterDependencyObject">
+            <summary>Sets the shim of CommandBehavior.GetCommandParameter(DependencyObject d)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehavior.GetEventDependencyObject">
+            <summary>Sets the shim of CommandBehavior.GetEvent(DependencyObject d)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehavior.OnActionChangedDependencyObjectDependencyPropertyChangedEventArgs">
+            <summary>Sets the shim of CommandBehavior.OnActionChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehavior.OnCommandChangedDependencyObjectDependencyPropertyChangedEventArgs">
+            <summary>Sets the shim of CommandBehavior.OnCommandChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehavior.OnCommandParameterChangedDependencyObjectDependencyPropertyChangedEventArgs">
+            <summary>Sets the shim of CommandBehavior.OnCommandParameterChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehavior.OnEventChangedDependencyObjectDependencyPropertyChangedEventArgs">
+            <summary>Sets the shim of CommandBehavior.OnEventChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehavior.SetActionDependencyObjectActionOfObject">
+            <summary>Sets the shim of CommandBehavior.SetAction(DependencyObject d, Action`1&lt;Object&gt; value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehavior.SetBehaviorDependencyObjectCommandBehaviorBinding">
+            <summary>Sets the shim of CommandBehavior.SetBehavior(DependencyObject d, CommandBehaviorBinding value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehavior.SetCommandDependencyObjectICommand">
+            <summary>Sets the shim of CommandBehavior.SetCommand(DependencyObject d, ICommand value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehavior.SetCommandParameterDependencyObjectObject">
+            <summary>Sets the shim of CommandBehavior.SetCommandParameter(DependencyObject d, Object value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehavior.SetEventDependencyObjectString">
+            <summary>Sets the shim of CommandBehavior.SetEvent(DependencyObject d, String value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehavior.StaticConstructor">
+            <summary>Sets the shim of CommandBehavior.CommandBehavior()</summary>
+        </member>
+        <member name="T:AttachedCommandBehavior.Fakes.ShimCommandBehavior.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding">
+            <summary>Shim type of AttachedCommandBehavior.CommandBehaviorBinding</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.#ctor(AttachedCommandBehavior.CommandBehaviorBinding)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.ActionGet">
+            <summary>Sets the shim of CommandBehaviorBinding.get_Action()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.ActionSetActionOfObject">
+            <summary>Sets the shim of CommandBehaviorBinding.set_Action(Action`1&lt;Object&gt; value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.BindEventDependencyObjectString">
+            <summary>Sets the shim of CommandBehaviorBinding.BindEvent(DependencyObject owner, String eventName)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.CommandGet">
+            <summary>Sets the shim of CommandBehaviorBinding.get_Command()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.CommandParameterGet">
+            <summary>Sets the shim of CommandBehaviorBinding.get_CommandParameter()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.CommandParameterSetObject">
+            <summary>Sets the shim of CommandBehaviorBinding.set_CommandParameter(Object value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.CommandSetICommand">
+            <summary>Sets the shim of CommandBehaviorBinding.set_Command(ICommand value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.Constructor">
+            <summary>Sets the shim of CommandBehaviorBinding.CommandBehaviorBinding()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.Dispose">
+            <summary>Sets the shim of CommandBehaviorBinding.Dispose()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.EventGet">
+            <summary>Sets the shim of CommandBehaviorBinding.get_Event()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.EventHandlerGet">
+            <summary>Sets the shim of CommandBehaviorBinding.get_EventHandler()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.EventHandlerSetDelegate">
+            <summary>Sets the shim of CommandBehaviorBinding.set_EventHandler(Delegate value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.EventNameGet">
+            <summary>Sets the shim of CommandBehaviorBinding.get_EventName()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.EventNameSetString">
+            <summary>Sets the shim of CommandBehaviorBinding.set_EventName(String value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.EventSetEventInfo">
+            <summary>Sets the shim of CommandBehaviorBinding.set_Event(EventInfo value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.Execute">
+            <summary>Sets the shim of CommandBehaviorBinding.Execute()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.OwnerGet">
+            <summary>Sets the shim of CommandBehaviorBinding.get_Owner()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.OwnerSetDependencyObject">
+            <summary>Sets the shim of CommandBehaviorBinding.set_Owner(DependencyObject value)</summary>
+        </member>
+        <member name="T:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.AllInstances.ActionGet">
+            <summary>Sets the shim of CommandBehaviorBinding.get_Action()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.AllInstances.ActionSetActionOfObject">
+            <summary>Sets the shim of CommandBehaviorBinding.set_Action(Action`1&lt;Object&gt; value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.AllInstances.BindEventDependencyObjectString">
+            <summary>Sets the shim of CommandBehaviorBinding.BindEvent(DependencyObject owner, String eventName)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.AllInstances.CommandGet">
+            <summary>Sets the shim of CommandBehaviorBinding.get_Command()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.AllInstances.CommandParameterGet">
+            <summary>Sets the shim of CommandBehaviorBinding.get_CommandParameter()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.AllInstances.CommandParameterSetObject">
+            <summary>Sets the shim of CommandBehaviorBinding.set_CommandParameter(Object value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.AllInstances.CommandSetICommand">
+            <summary>Sets the shim of CommandBehaviorBinding.set_Command(ICommand value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.AllInstances.Dispose">
+            <summary>Sets the shim of CommandBehaviorBinding.Dispose()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.AllInstances.EventGet">
+            <summary>Sets the shim of CommandBehaviorBinding.get_Event()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.AllInstances.EventHandlerGet">
+            <summary>Sets the shim of CommandBehaviorBinding.get_EventHandler()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.AllInstances.EventHandlerSetDelegate">
+            <summary>Sets the shim of CommandBehaviorBinding.set_EventHandler(Delegate value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.AllInstances.EventNameGet">
+            <summary>Sets the shim of CommandBehaviorBinding.get_EventName()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.AllInstances.EventNameSetString">
+            <summary>Sets the shim of CommandBehaviorBinding.set_EventName(String value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.AllInstances.EventSetEventInfo">
+            <summary>Sets the shim of CommandBehaviorBinding.set_Event(EventInfo value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.AllInstances.Execute">
+            <summary>Sets the shim of CommandBehaviorBinding.Execute()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.AllInstances.OwnerGet">
+            <summary>Sets the shim of CommandBehaviorBinding.get_Owner()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorBinding.AllInstances.OwnerSetDependencyObject">
+            <summary>Sets the shim of CommandBehaviorBinding.set_Owner(DependencyObject value)</summary>
+        </member>
+        <member name="T:AttachedCommandBehavior.Fakes.ShimCommandBehaviorCollection">
+            <summary>Shim type of AttachedCommandBehavior.CommandBehaviorCollection</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimCommandBehaviorCollection.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimCommandBehaviorCollection.#ctor(AttachedCommandBehavior.CommandBehaviorCollection)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimCommandBehaviorCollection.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimCommandBehaviorCollection.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorCollection.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorCollection.CollectionChangedObjectNotifyCollectionChangedEventArgs">
+            <summary>Sets the shim of CommandBehaviorCollection.CollectionChanged(Object sender, NotifyCollectionChangedEventArgs e)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorCollection.Constructor">
+            <summary>Sets the shim of CommandBehaviorCollection.CommandBehaviorCollection()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorCollection.GetBehaviorsDependencyObject">
+            <summary>Sets the shim of CommandBehaviorCollection.GetBehaviors(DependencyObject d)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorCollection.SetBehaviorsDependencyObjectBehaviorBindingCollection">
+            <summary>Sets the shim of CommandBehaviorCollection.SetBehaviors(DependencyObject d, BehaviorBindingCollection value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandBehaviorCollection.StaticConstructor">
+            <summary>Sets the shim of CommandBehaviorCollection.CommandBehaviorCollection()</summary>
+        </member>
+        <member name="T:AttachedCommandBehavior.Fakes.ShimCommandBehaviorCollection.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:AttachedCommandBehavior.Fakes.ShimCommandExecutionStrategy">
+            <summary>Shim type of AttachedCommandBehavior.CommandExecutionStrategy</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimCommandExecutionStrategy.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimCommandExecutionStrategy.#ctor(AttachedCommandBehavior.CommandExecutionStrategy)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimCommandExecutionStrategy.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimCommandExecutionStrategy.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimCommandExecutionStrategy.Bind(AttachedCommandBehavior.IExecutionStrategy)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandExecutionStrategy.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandExecutionStrategy.BehaviorGet">
+            <summary>Sets the shim of CommandExecutionStrategy.get_Behavior()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandExecutionStrategy.BehaviorSetCommandBehaviorBinding">
+            <summary>Sets the shim of CommandExecutionStrategy.set_Behavior(CommandBehaviorBinding value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandExecutionStrategy.Constructor">
+            <summary>Sets the shim of CommandExecutionStrategy.CommandExecutionStrategy()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandExecutionStrategy.ExecuteObject">
+            <summary>Sets the shim of CommandExecutionStrategy.Execute(Object parameter)</summary>
+        </member>
+        <member name="T:AttachedCommandBehavior.Fakes.ShimCommandExecutionStrategy.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandExecutionStrategy.AllInstances.BehaviorGet">
+            <summary>Sets the shim of CommandExecutionStrategy.get_Behavior()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandExecutionStrategy.AllInstances.BehaviorSetCommandBehaviorBinding">
+            <summary>Sets the shim of CommandExecutionStrategy.set_Behavior(CommandBehaviorBinding value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimCommandExecutionStrategy.AllInstances.ExecuteObject">
+            <summary>Sets the shim of CommandExecutionStrategy.Execute(Object parameter)</summary>
+        </member>
+        <member name="T:AttachedCommandBehavior.Fakes.ShimEventHandlerGenerator">
+            <summary>Shim type of AttachedCommandBehavior.EventHandlerGenerator</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimEventHandlerGenerator.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimEventHandlerGenerator.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimEventHandlerGenerator.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimEventHandlerGenerator.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimEventHandlerGenerator.CreateDelegateTypeMethodInfoObject">
+            <summary>Sets the shim of EventHandlerGenerator.CreateDelegate(Type eventHandlerType, MethodInfo methodToInvoke, Object methodInvoker)</summary>
+        </member>
+        <member name="T:AttachedCommandBehavior.Fakes.ShimSimpleCommand">
+            <summary>Shim type of AttachedCommandBehavior.SimpleCommand</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimSimpleCommand.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimSimpleCommand.#ctor(AttachedCommandBehavior.SimpleCommand)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimSimpleCommand.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimSimpleCommand.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.ShimSimpleCommand.Bind(System.Windows.Input.ICommand)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimSimpleCommand.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimSimpleCommand.CanExecuteChangedAddEventHandler">
+            <summary>Sets the shim of SimpleCommand.add_CanExecuteChanged(EventHandler value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimSimpleCommand.CanExecuteChangedRemoveEventHandler">
+            <summary>Sets the shim of SimpleCommand.remove_CanExecuteChanged(EventHandler value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimSimpleCommand.CanExecuteDelegateGet">
+            <summary>Sets the shim of SimpleCommand.get_CanExecuteDelegate()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimSimpleCommand.CanExecuteDelegateSetPredicateOfObject">
+            <summary>Sets the shim of SimpleCommand.set_CanExecuteDelegate(Predicate`1&lt;Object&gt; value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimSimpleCommand.CanExecuteObject">
+            <summary>Sets the shim of SimpleCommand.CanExecute(Object parameter)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimSimpleCommand.Constructor">
+            <summary>Sets the shim of SimpleCommand.SimpleCommand()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimSimpleCommand.ExecuteDelegateGet">
+            <summary>Sets the shim of SimpleCommand.get_ExecuteDelegate()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimSimpleCommand.ExecuteDelegateSetActionOfObject">
+            <summary>Sets the shim of SimpleCommand.set_ExecuteDelegate(Action`1&lt;Object&gt; value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimSimpleCommand.ExecuteObject">
+            <summary>Sets the shim of SimpleCommand.Execute(Object parameter)</summary>
+        </member>
+        <member name="T:AttachedCommandBehavior.Fakes.ShimSimpleCommand.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimSimpleCommand.AllInstances.CanExecuteChangedAddEventHandler">
+            <summary>Sets the shim of SimpleCommand.add_CanExecuteChanged(EventHandler value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimSimpleCommand.AllInstances.CanExecuteChangedRemoveEventHandler">
+            <summary>Sets the shim of SimpleCommand.remove_CanExecuteChanged(EventHandler value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimSimpleCommand.AllInstances.CanExecuteDelegateGet">
+            <summary>Sets the shim of SimpleCommand.get_CanExecuteDelegate()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimSimpleCommand.AllInstances.CanExecuteDelegateSetPredicateOfObject">
+            <summary>Sets the shim of SimpleCommand.set_CanExecuteDelegate(Predicate`1&lt;Object&gt; value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimSimpleCommand.AllInstances.CanExecuteObject">
+            <summary>Sets the shim of SimpleCommand.CanExecute(Object parameter)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimSimpleCommand.AllInstances.ExecuteDelegateGet">
+            <summary>Sets the shim of SimpleCommand.get_ExecuteDelegate()</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimSimpleCommand.AllInstances.ExecuteDelegateSetActionOfObject">
+            <summary>Sets the shim of SimpleCommand.set_ExecuteDelegate(Action`1&lt;Object&gt; value)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.ShimSimpleCommand.AllInstances.ExecuteObject">
+            <summary>Sets the shim of SimpleCommand.Execute(Object parameter)</summary>
+        </member>
+        <member name="T:AttachedCommandBehavior.Fakes.StubActionExecutionStrategy">
+            <summary>Stub type of AttachedCommandBehavior.ActionExecutionStrategy</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubActionExecutionStrategy.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubActionExecutionStrategy.InitializeStub">
+            <summary>Initializes a new instance of type StubActionExecutionStrategy</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.StubActionExecutionStrategy.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.StubActionExecutionStrategy.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.StubActionExecutionStrategy.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AttachedCommandBehavior.Fakes.StubBehaviorBinding">
+            <summary>Stub type of AttachedCommandBehavior.BehaviorBinding</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubBehaviorBinding.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubBehaviorBinding.CloneCore(System.Windows.Freezable)">
+            <summary>Sets the stub of Freezable.CloneCore(Freezable sourceFreezable)</summary>
+        </member>
+        <member name="F:AttachedCommandBehavior.Fakes.StubBehaviorBinding.CloneCoreFreezable">
+            <summary>Sets the stub of Freezable.CloneCore(Freezable sourceFreezable)</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubBehaviorBinding.CloneCurrentValueCore(System.Windows.Freezable)">
+            <summary>Sets the stub of Freezable.CloneCurrentValueCore(Freezable sourceFreezable)</summary>
+        </member>
+        <member name="F:AttachedCommandBehavior.Fakes.StubBehaviorBinding.CloneCurrentValueCoreFreezable">
+            <summary>Sets the stub of Freezable.CloneCurrentValueCore(Freezable sourceFreezable)</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubBehaviorBinding.CreateInstanceCore">
+            <summary>Sets the stub of BehaviorBinding.CreateInstanceCore()</summary>
+        </member>
+        <member name="F:AttachedCommandBehavior.Fakes.StubBehaviorBinding.CreateInstanceCore01">
+            <summary>Sets the stub of BehaviorBinding.CreateInstanceCore()</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubBehaviorBinding.FreezeCore(System.Boolean)">
+            <summary>Sets the stub of Freezable.FreezeCore(Boolean isChecking)</summary>
+        </member>
+        <member name="F:AttachedCommandBehavior.Fakes.StubBehaviorBinding.FreezeCoreBoolean">
+            <summary>Sets the stub of Freezable.FreezeCore(Boolean isChecking)</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubBehaviorBinding.GetAsFrozenCore(System.Windows.Freezable)">
+            <summary>Sets the stub of Freezable.GetAsFrozenCore(Freezable sourceFreezable)</summary>
+        </member>
+        <member name="F:AttachedCommandBehavior.Fakes.StubBehaviorBinding.GetAsFrozenCoreFreezable">
+            <summary>Sets the stub of Freezable.GetAsFrozenCore(Freezable sourceFreezable)</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubBehaviorBinding.GetCurrentValueAsFrozenCore(System.Windows.Freezable)">
+            <summary>Sets the stub of Freezable.GetCurrentValueAsFrozenCore(Freezable sourceFreezable)</summary>
+        </member>
+        <member name="F:AttachedCommandBehavior.Fakes.StubBehaviorBinding.GetCurrentValueAsFrozenCoreFreezable">
+            <summary>Sets the stub of Freezable.GetCurrentValueAsFrozenCore(Freezable sourceFreezable)</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubBehaviorBinding.InitializeStub">
+            <summary>Initializes a new instance of type StubBehaviorBinding</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubBehaviorBinding.OnChanged">
+            <summary>Sets the stub of Freezable.OnChanged()</summary>
+        </member>
+        <member name="F:AttachedCommandBehavior.Fakes.StubBehaviorBinding.OnChanged01">
+            <summary>Sets the stub of Freezable.OnChanged()</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubBehaviorBinding.OnPropertyChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>Sets the stub of Freezable.OnPropertyChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="F:AttachedCommandBehavior.Fakes.StubBehaviorBinding.OnPropertyChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the stub of Freezable.OnPropertyChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubBehaviorBinding.ShouldSerializeProperty(System.Windows.DependencyProperty)">
+            <summary>Sets the stub of DependencyObject.ShouldSerializeProperty(DependencyProperty dp)</summary>
+        </member>
+        <member name="F:AttachedCommandBehavior.Fakes.StubBehaviorBinding.ShouldSerializePropertyDependencyProperty">
+            <summary>Sets the stub of DependencyObject.ShouldSerializeProperty(DependencyProperty dp)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.StubBehaviorBinding.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.StubBehaviorBinding.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.StubBehaviorBinding.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AttachedCommandBehavior.Fakes.StubBehaviorBindingCollection">
+            <summary>Stub type of AttachedCommandBehavior.BehaviorBindingCollection</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubBehaviorBindingCollection.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubBehaviorBindingCollection.CloneCore(System.Windows.Freezable)">
+            <summary>Sets the stub of FreezableCollection`1.CloneCore(Freezable source)</summary>
+        </member>
+        <member name="F:AttachedCommandBehavior.Fakes.StubBehaviorBindingCollection.CloneCoreFreezable">
+            <summary>Sets the stub of FreezableCollection`1.CloneCore(Freezable source)</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubBehaviorBindingCollection.CloneCurrentValueCore(System.Windows.Freezable)">
+            <summary>Sets the stub of FreezableCollection`1.CloneCurrentValueCore(Freezable source)</summary>
+        </member>
+        <member name="F:AttachedCommandBehavior.Fakes.StubBehaviorBindingCollection.CloneCurrentValueCoreFreezable">
+            <summary>Sets the stub of FreezableCollection`1.CloneCurrentValueCore(Freezable source)</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubBehaviorBindingCollection.CreateInstanceCore">
+            <summary>Sets the stub of FreezableCollection`1.CreateInstanceCore()</summary>
+        </member>
+        <member name="F:AttachedCommandBehavior.Fakes.StubBehaviorBindingCollection.CreateInstanceCore01">
+            <summary>Sets the stub of FreezableCollection`1.CreateInstanceCore()</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubBehaviorBindingCollection.FreezeCore(System.Boolean)">
+            <summary>Sets the stub of FreezableCollection`1.FreezeCore(Boolean isChecking)</summary>
+        </member>
+        <member name="F:AttachedCommandBehavior.Fakes.StubBehaviorBindingCollection.FreezeCoreBoolean">
+            <summary>Sets the stub of FreezableCollection`1.FreezeCore(Boolean isChecking)</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubBehaviorBindingCollection.GetAsFrozenCore(System.Windows.Freezable)">
+            <summary>Sets the stub of FreezableCollection`1.GetAsFrozenCore(Freezable source)</summary>
+        </member>
+        <member name="F:AttachedCommandBehavior.Fakes.StubBehaviorBindingCollection.GetAsFrozenCoreFreezable">
+            <summary>Sets the stub of FreezableCollection`1.GetAsFrozenCore(Freezable source)</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubBehaviorBindingCollection.GetCurrentValueAsFrozenCore(System.Windows.Freezable)">
+            <summary>Sets the stub of FreezableCollection`1.GetCurrentValueAsFrozenCore(Freezable source)</summary>
+        </member>
+        <member name="F:AttachedCommandBehavior.Fakes.StubBehaviorBindingCollection.GetCurrentValueAsFrozenCoreFreezable">
+            <summary>Sets the stub of FreezableCollection`1.GetCurrentValueAsFrozenCore(Freezable source)</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubBehaviorBindingCollection.InitializeStub">
+            <summary>Initializes a new instance of type StubBehaviorBindingCollection</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubBehaviorBindingCollection.OnChanged">
+            <summary>Sets the stub of Freezable.OnChanged()</summary>
+        </member>
+        <member name="F:AttachedCommandBehavior.Fakes.StubBehaviorBindingCollection.OnChanged01">
+            <summary>Sets the stub of Freezable.OnChanged()</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubBehaviorBindingCollection.OnPropertyChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>Sets the stub of Freezable.OnPropertyChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="F:AttachedCommandBehavior.Fakes.StubBehaviorBindingCollection.OnPropertyChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the stub of Freezable.OnPropertyChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubBehaviorBindingCollection.ShouldSerializeProperty(System.Windows.DependencyProperty)">
+            <summary>Sets the stub of DependencyObject.ShouldSerializeProperty(DependencyProperty dp)</summary>
+        </member>
+        <member name="F:AttachedCommandBehavior.Fakes.StubBehaviorBindingCollection.ShouldSerializePropertyDependencyProperty">
+            <summary>Sets the stub of DependencyObject.ShouldSerializeProperty(DependencyProperty dp)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.StubBehaviorBindingCollection.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.StubBehaviorBindingCollection.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.StubBehaviorBindingCollection.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AttachedCommandBehavior.Fakes.StubCommandBehavior">
+            <summary>Stub type of AttachedCommandBehavior.CommandBehavior</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubCommandBehavior.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubCommandBehavior.InitializeStub">
+            <summary>Initializes a new instance of type StubCommandBehavior</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.StubCommandBehavior.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.StubCommandBehavior.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.StubCommandBehavior.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AttachedCommandBehavior.Fakes.StubCommandBehaviorBinding">
+            <summary>Stub type of AttachedCommandBehavior.CommandBehaviorBinding</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubCommandBehaviorBinding.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubCommandBehaviorBinding.InitializeStub">
+            <summary>Initializes a new instance of type StubCommandBehaviorBinding</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.StubCommandBehaviorBinding.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.StubCommandBehaviorBinding.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.StubCommandBehaviorBinding.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AttachedCommandBehavior.Fakes.StubCommandBehaviorCollection">
+            <summary>Stub type of AttachedCommandBehavior.CommandBehaviorCollection</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubCommandBehaviorCollection.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubCommandBehaviorCollection.InitializeStub">
+            <summary>Initializes a new instance of type StubCommandBehaviorCollection</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.StubCommandBehaviorCollection.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.StubCommandBehaviorCollection.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.StubCommandBehaviorCollection.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AttachedCommandBehavior.Fakes.StubCommandExecutionStrategy">
+            <summary>Stub type of AttachedCommandBehavior.CommandExecutionStrategy</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubCommandExecutionStrategy.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubCommandExecutionStrategy.InitializeStub">
+            <summary>Initializes a new instance of type StubCommandExecutionStrategy</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.StubCommandExecutionStrategy.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.StubCommandExecutionStrategy.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.StubCommandExecutionStrategy.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:AttachedCommandBehavior.Fakes.StubIExecutionStrategy">
+            <summary>Stub type of AttachedCommandBehavior.IExecutionStrategy</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubIExecutionStrategy.#ctor">
+            <summary>Initializes a new instance of type StubIExecutionStrategy</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubIExecutionStrategy.AttachBackingFieldToBehavior">
+            <summary>Attaches delegates to emulate StubIExecutionStrategy.Behavior as a property with a backing field.</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubIExecutionStrategy.acb::AttachedCommandBehavior#IExecutionStrategy#Execute(System.Object)">
+            <summary>Sets the stub of IExecutionStrategy.Execute(Object parameter)</summary>
+        </member>
+        <member name="F:AttachedCommandBehavior.Fakes.StubIExecutionStrategy.BehaviorGet">
+            <summary>Sets the stub of IExecutionStrategy.get_Behavior()</summary>
+        </member>
+        <member name="F:AttachedCommandBehavior.Fakes.StubIExecutionStrategy.BehaviorSetCommandBehaviorBinding">
+            <summary>Sets the stub of IExecutionStrategy.set_Behavior(CommandBehaviorBinding value)</summary>
+        </member>
+        <member name="F:AttachedCommandBehavior.Fakes.StubIExecutionStrategy.ExecuteObject">
+            <summary>Sets the stub of IExecutionStrategy.Execute(Object parameter)</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.StubIExecutionStrategy.acb::AttachedCommandBehavior#IExecutionStrategy#Behavior">
+            <summary>Sets the stub of IExecutionStrategy.get_Behavior()</summary>
+        </member>
+        <member name="T:AttachedCommandBehavior.Fakes.StubSimpleCommand">
+            <summary>Stub type of AttachedCommandBehavior.SimpleCommand</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubSimpleCommand.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:AttachedCommandBehavior.Fakes.StubSimpleCommand.InitializeStub">
+            <summary>Initializes a new instance of type StubSimpleCommand</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.StubSimpleCommand.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.StubSimpleCommand.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:AttachedCommandBehavior.Fakes.StubSimpleCommand.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

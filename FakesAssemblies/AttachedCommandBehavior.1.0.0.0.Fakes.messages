@@ -1,0 +1,6 @@
+c:\Projects\LearningFromSub\WpfApplication1\Fakes\AttachedCommandBehavior.fakes : warning : Cannot generate stub for AttachedCommandBehavior.EventHandlerGenerator: type is sealed.
+c:\Projects\LearningFromSub\WpfApplication1\Fakes\AttachedCommandBehavior.fakes : warning : Cannot generate stub for AttachedCommandBehavior.Properties.Resources: type is not visible to exported or assembly(AttachedCommandBehavior.1.0.0.0.Fakes).
+c:\Projects\LearningFromSub\WpfApplication1\Fakes\AttachedCommandBehavior.fakes : warning : Cannot generate stub for AttachedCommandBehavior.Properties.Settings: type is sealed.
+c:\Projects\LearningFromSub\WpfApplication1\Fakes\AttachedCommandBehavior.fakes : warning : Cannot generate shim for AttachedCommandBehavior.IExecutionStrategy: type is an interface.
+c:\Projects\LearningFromSub\WpfApplication1\Fakes\AttachedCommandBehavior.fakes : warning : Cannot generate shim for AttachedCommandBehavior.Properties.Resources: type is not visible to exported or assembly(AttachedCommandBehavior.1.0.0.0.Fakes).
+c:\Projects\LearningFromSub\WpfApplication1\Fakes\AttachedCommandBehavior.fakes : warning : Cannot generate shim for AttachedCommandBehavior.Properties.Settings: type is not visible to exported or assembly(AttachedCommandBehavior.1.0.0.0.Fakes).

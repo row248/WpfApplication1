@@ -1,0 +1,23 @@
+﻿<Window x:Class="LFS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="380" Width="535">
+
+    <Grid Focusable="False">
+        <DockPanel>
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="Subtitles">
+                    <MenuItem Header="_Open" Command="{Binding OpenSubtitlesCmd}"/>
+                    <MenuItem Header="_Resent">
+                        <MenuItem Header="Terminator.4.srt" />
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="Database">
+                    <MenuItem Header="_Show words" Command="{Binding ShowWordsFromDatabaseCmd}"/>
+                </MenuItem>
+            </Menu>
+        </DockPanel>
+
+        <ContentControl Name="Frame" Content="{Binding Frame}" />
+    </Grid>
+</Window>
